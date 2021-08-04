@@ -1,4 +1,4 @@
-import { distanceInWords, distanceInWordsToNow } from "date-fns";
+import { distanceInWordsToNow } from "date-fns";
 import React, { useContext, useEffect, useState } from "react";
 import {FirebaseContext} from '../../firebase/index'
 import LinkItem from "./LinkItem";
