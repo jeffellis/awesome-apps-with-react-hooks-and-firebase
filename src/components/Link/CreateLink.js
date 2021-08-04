@@ -34,6 +34,7 @@ function CreateLink(props) {
         name: user.displayName,
       },
       url,
+      voteCount: 0,
       votes: [],
     };
 
